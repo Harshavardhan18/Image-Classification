@@ -45,24 +45,24 @@ Test the svm on testset for accuracy
 
 
 To compile and execute the image_classification_training.cpp
-g++ -std=c++11 image_classification_training.cpp -o output `pkg-config --cflags --libs opencv`
-./output (include command line arg if ur providing the location of training and test dataset)
+* g++ -std=c++11 image_classification_training.cpp -o output `pkg-config --cflags --libs opencv`
+* ./output (include command line arg if ur providing the location of training and test dataset)
 
 Once the training has been completed a .yml file is created by the SVM. This file can later be used to predict the image instead of training the model each time.
 
 To compile and execute image_prediction.cpp
-g++ -std=c++11 image_predictiong.cpp -o predict `pkg-config --cflags --libs opencv`
-./predict (location of image data to predict)
+* g++ -std=c++11 image_predictiong.cpp -o predict `pkg-config --cflags --libs opencv`
+* ./predict (location of image data to predict)
 
 Fell free to tune the SVM parameters referenced by the documentation(https://docs.opencv.org/3.2.0/d1/d2d/classcv_1_1ml_1_1SVM.html) for various kernal types, SVM Types and various parameter.
 
 For more information 
 * How HOG works?
-  https://www.learnopencv.com/histogram-of-oriented-gradients/
-  http://mccormickml.com/2013/05/09/hog-person-detector-tutorial/
+  * https://www.learnopencv.com/histogram-of-oriented-gradients/
+  * http://mccormickml.com/2013/05/09/hog-person-detector-tutorial/
 
 * How SVM works?
-  https://www.analyticsvidhya.com/blog/2017/09/understaing-support-vector-machine-example-code/
+  * https://www.analyticsvidhya.com/blog/2017/09/understaing-support-vector-machine-example-code/
   
 * Opencv documentation
-  https://docs.opencv.org/3.2.0/
+  * https://docs.opencv.org/3.2.0/
