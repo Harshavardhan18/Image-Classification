@@ -56,7 +56,7 @@ To compile and execute image_prediction.cpp
 
 Fell free to tune the SVM parameters referenced by the documentation(https://docs.opencv.org/3.2.0/d1/d2d/classcv_1_1ml_1_1SVM.html) for various kernal types, SVM Types and various parameter.
 
-For more information 
+For more information on
 * How HOG works?
   * https://www.learnopencv.com/histogram-of-oriented-gradients/
   * http://mccormickml.com/2013/05/09/hog-person-detector-tutorial/
